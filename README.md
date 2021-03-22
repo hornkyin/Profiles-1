@@ -1,3 +1,9 @@
+````
+git remote add upstream https://github.com/DivineEngine/Profiles.git
+git pull upstream master
+git push
+````
+
 ⛔️Star ⛔️Fork ⛔️Share
 
 Please read the [Documentation](https://www.notion.so/divineengine/b4161dac0412486e9a6f1637a1b2d572) before using this profile.

@@ -10,9 +10,10 @@ DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
 # > Apple
 DOMAIN,testflight.apple.com,PROXY
-# > Cryptocurrency
+# > Crypto
 DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
+DOMAIN-SUFFIX,binance.cc,PROXY
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,bitcointalk.org,PROXY
 DOMAIN-SUFFIX,bitfinex.com,PROXY
@@ -20,8 +21,10 @@ DOMAIN-SUFFIX,bitmex.com,PROXY
 DOMAIN-SUFFIX,gate.io,PROXY
 DOMAIN-SUFFIX,huobi.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
+DOMAIN-SUFFIX,uniswap.org,PROXY
 DOMAIN-SUFFIX,zb.com,PROXY
 # > Discord
+DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,discordapp.net,PROXY
 # > Dropbox
@@ -86,6 +89,15 @@ DOMAIN-SUFFIX,nytimes.com,PROXY
 DOMAIN-SUFFIX,nytimg.com,PROXY
 DOMAIN-SUFFIX,nytlog.com,PROXY
 DOMAIN-SUFFIX,nytstyle.com,PROXY
+# > Pinterest
+DOMAIN-SUFFIX,pinterest.at,PROXY
+DOMAIN-SUFFIX,pinterest.ca,PROXY
+DOMAIN-SUFFIX,pinterest.co.uk,PROXY
+DOMAIN-SUFFIX,pinterest.com,PROXY
+DOMAIN-SUFFIX,pinterest.de,PROXY
+DOMAIN-SUFFIX,pinterest.fr,PROXY
+DOMAIN-SUFFIX,pinterest.jp,PROXY
+DOMAIN-SUFFIX,pinterest.se,PROXY
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net,PROXY
 DOMAIN-SUFFIX,pixiv.org,PROXY
@@ -103,6 +115,7 @@ IP-CIDR,91.108.12.0/22,PROXY
 IP-CIDR,91.108.16.0/22,PROXY
 IP-CIDR,91.108.20.0/22,PROXY
 IP-CIDR,91.108.56.0/22,PROXY
+IP-CIDR,95.161.64.0/20,PROXY
 IP-CIDR,149.154.160.0/20,PROXY
 IP6-CIDR,2001:b28:f23d::/48,PROXY
 IP6-CIDR,2001:b28:f23f::/48,PROXY
@@ -187,8 +200,10 @@ DOMAIN-SUFFIX,crucial.com,PROXY
 DOMAIN-SUFFIX,cts.com.tw,PROXY
 DOMAIN-SUFFIX,cw.com.tw,PROXY
 DOMAIN-SUFFIX,cyberctm.com,PROXY
+DOMAIN-SUFFIX,cyclingnews.com,PROXY
 DOMAIN-SUFFIX,dailymotion.com,PROXY
 DOMAIN-SUFFIX,dailyview.tw,PROXY
+DOMAIN-SUFFIX,dandanzan.com,PROXY
 DOMAIN-SUFFIX,daum.net,PROXY
 DOMAIN-SUFFIX,daumcdn.net,PROXY
 DOMAIN-SUFFIX,dcard.tw,PROXY
@@ -301,6 +316,7 @@ DOMAIN-SUFFIX,mega.nz,PROXY
 DOMAIN-SUFFIX,mergersandinquisitions.com,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
 DOMAIN-SUFFIX,mixi.jp,PROXY
+DOMAIN-SUFFIX,mixlr.com,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
 DOMAIN-SUFFIX,mubi.com,PROXY
 DOMAIN-SUFFIX,myspace.com,PROXY
@@ -383,6 +399,7 @@ DOMAIN-SUFFIX,steemitwallet.com,PROXY
 DOMAIN-SUFFIX,straitstimes.com,PROXY
 DOMAIN-SUFFIX,streamable.com,PROXY
 DOMAIN-SUFFIX,streema.com,PROXY
+DOMAIN-SUFFIX,substack.com,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,tapatalk.com,PROXY
 DOMAIN-SUFFIX,teco-hk.org,PROXY
@@ -409,6 +426,7 @@ DOMAIN-SUFFIX,uptodown.com,PROXY
 DOMAIN-SUFFIX,urbandictionary.com,PROXY
 DOMAIN-SUFFIX,ustream.tv,PROXY
 DOMAIN-SUFFIX,uwants.com,PROXY
+DOMAIN-SUFFIX,v2ex.com,PROXY
 DOMAIN-SUFFIX,v2fly.org,PROXY
 DOMAIN-SUFFIX,v2ray.com,PROXY
 DOMAIN-SUFFIX,viber.com,PROXY
@@ -435,6 +453,7 @@ DOMAIN-SUFFIX,xn--90wwvt03e.com,PROXY
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com,PROXY
 DOMAIN-SUFFIX,xnxx.com,PROXY
 DOMAIN-SUFFIX,xvideos.com,PROXY
+DOMAIN-SUFFIX,yadi.sk,PROXY
 DOMAIN-SUFFIX,yahoo.com,PROXY
 DOMAIN-SUFFIX,yandex.ru,PROXY
 DOMAIN-SUFFIX,ycombinator.com,PROXY
@@ -445,14 +464,12 @@ DOMAIN-SUFFIX,you-get.org,PROXY
 DOMAIN-SUFFIX,zaobao.com,PROXY
 DOMAIN-SUFFIX,zello.com,PROXY
 DOMAIN-SUFFIX,zeronet.io,PROXY
+DOMAIN-SUFFIX,z-lib.org,PROXY
 DOMAIN-SUFFIX,zoom.us,PROXY
 
 DOMAIN,cc.tvbs.com.tw,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
-DOMAIN,search.avira.com,PROXY
 DOMAIN,us.weibo.com,PROXY
-
-DOMAIN-KEYWORD,.pinterest.,PROXY
 
 DOMAIN-SUFFIX,edu,PROXY
 DOMAIN-SUFFIX,gov,PROXY
@@ -516,21 +533,21 @@ DOMAIN-SUFFIX,twitter.jp,PROXY
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
-# > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re,PROXY
-# > iBooks Store download
 DOMAIN,books.itunes.apple.com,PROXY
-# > App Store Preview
+DOMAIN,api-glb-sea.smoot.apple.com,PROXY
+DOMAIN,beta.music.apple.com,PROXY
+DOMAIN,tv.apple.com,PROXY
+# > App Store Web Preview
 DOMAIN,apps.apple.com,PROXY
 DOMAIN,itunes.apple.com,PROXY
-# > Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Look Up
 DOMAIN-SUFFIX,smoot.apple.com,PROXY
 DOMAIN,lookup-api.apple.com,PROXY
-# > Apple Music Web
-DOMAIN,beta.music.apple.com,PROXY
 # ------
+# Google
+DOMAIN-SUFFIX,go.dev,PROXY
+DOMAIN-SUFFIX,golang.org,PROXY
 # > Others
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,cccat.io,PROXY
@@ -539,6 +556,8 @@ DOMAIN-SUFFIX,duboxcdn.com,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
+DOMAIN-SUFFIX,sushi.com,PROXY
+# URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
 # (Network Jitter)
 # > Apple
@@ -559,4 +578,3 @@ DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
 DOMAIN,international-gfe.download.nvidia.com,PROXY
-DOMAIN,store-images.s-microsoft.com,PROXY
